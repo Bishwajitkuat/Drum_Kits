@@ -12,7 +12,7 @@ for (i= 0; i<totalDrumNumber; i++ ) {
 
 // detecting keystrock
 
-document.addEventListener("keydown", function(){
+document.addEventListener("keydown", function(event){
   playSound(event.key);
   buttonAnimation(event.key);
 });
